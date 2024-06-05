@@ -1,0 +1,55 @@
+
+* {
+    background: #100E3F;
+    font-style: normal;
+    color:white;
+    display:block;
+    margin:0;
+    padding:0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: auto;
+    border-left: 2px solid white; 
+    border-right: 2px solid white; 
+}
+.main-flex{
+    display:flex
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin-right:10px;
+    max-width: 100%;
+}
+.bio{
+    width:505px
+}
+h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.studentImg {
+    border-radius: 50%; 
+    width: 250px; 
+    height: 250px; 
+    object-fit: cover; 
+}
+.readMore{
+    padding:10px;
+    border-radius:5px;
+    color:white;
+    background-color: red;
+    width:200px;
+    cursor:pointer;
+    margin-top:14px
+}
